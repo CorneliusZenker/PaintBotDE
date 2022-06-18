@@ -10,6 +10,11 @@ trage bei URL den Link zu diesem Repo ein (https://github.com/CorneliusZenker/Pa
 Anschliessend öffnest du den Reiter Gradle am rechten Rand und führst die Task runGame (unter PaintBotDE/Tasks/other) aus.
 Dies fügt die Configuration hinzu, die du wie gewohnt nutzen kannst, um dein Programm zu starten und zu debuggen.
 
+## Admission
+Es gibt jetzt eine neue Gradle Task <b>admission</b>, die das Spiel im Admission mode startet 
+(java -jar paintbots_0.xx.xx.jar -admission -time 120 -seed 1337 -version)
+Diese befindet sich in derselben Gruppe wie die runGame Task.
+
 ## FAQ
 Die meisten Antworten auf deine Fragen wirst du bereits im Original Repo von Thomas Wilde finden: https://github.com/Thomas-Wilde/PaintBots/blob/main/README.md
 
