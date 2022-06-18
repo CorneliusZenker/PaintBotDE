@@ -41,7 +41,7 @@ class RandomBot extends AIPlayer {
   // ======================= AIPlayer methods ====================== //
   //@formatter:off
   // ToDo: fill in your details
-  @Override public String  getBotName()   { return "Random Bot"; }
+  @Override public String  getBotName()   { return "RandomBot"; }
   @Override public String  getStudent()   { return "Thomas Wilde"; }
   @Override public int     getMatrikel()  { return 123456; }
   @Override public Vector2 getDirection() { return dir; }
