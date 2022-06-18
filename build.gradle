@@ -19,13 +19,25 @@ dependencies {
 task runGame(type: JavaExec) {
 
     workingDir = projectDir.path + "/build/classes/java/main"
-    main = "-jar";
+    main = "-jar"
     args = [
             projectDir.path + "/src/lib/paintBots.jar"
     ]
 }
 
 runGame.dependsOn(build)
+
+task admission(type: JavaExec) {
+
+    workingDir = projectDir.path + "/build/classes/java/main"
+    main = "-jar"
+    args = [
+            projectDir.path + "/src/lib/paintBots.jar",
+            "-admission", "-time 120", "-seed 1337", "-version"
+    ]
+}
+
+admission.dependsOn(build)
 
 
 
