@@ -1,4 +1,4 @@
-#Package Pots
+# Package Pots
 Dies ist das Package "bots". Hier müssen deine [Botname].java Dateien rein.
 Sie enthält bereits ein Template RandomBot.java
 Es ist empfohlen, dies zu kopieren und die Stellen mit //ToDo zu vervollständigen.
