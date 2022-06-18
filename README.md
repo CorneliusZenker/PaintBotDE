@@ -13,9 +13,21 @@ Dies fügt die Configuration hinzu, die du wie gewohnt nutzen kannst, um dein Pr
 ## FAQ
 Die meisten Antworten auf deine Fragen wirst du bereits im Original Repo von Thomas Wilde finden: https://github.com/Thomas-Wilde/PaintBots/blob/main/README.md
 
-#### Gibt es auch Anleitungen für andere IDEs:
+#### Was mache ich, wenn es im Repo eine neue Version gibt?
+Für diesen Fall musst du die Änderungen vom Remote Branch origin/master in deinen lokalen Branch mergen. 
+Unter IJ kannst du einfach auf VCS > Update Project  klicken (Ist nur ein angenehmer Shortcut).
+Deine Bots im Package Bots bleiben unverändert, <b>solange sie nicht RandomBot.java heißen</b>.
+
+Daher solltest du Sie spätestens umbenennen, bevor du einen solchen Merge/ Update durchführst. 
+Am besten ist es jedoch das Template einfach zu kopieren, wenn du mit programmieren beginnst und es dabei schon umzubenennen.
+
+Es kann zudem passieren, dass ein Merge die paintBots.jar updatet. Sollte danach deine Code-Inspection nicht mehr funktionieren, 
+lässt sich das leicht mit einem Neustart der IDE beheben.
+Sollte auch das Kompilieren fehlschlagen, ist dies warscheinlich ein Bug. Schreib mich in diesem Fall gerne an.
+
+#### Gibt es auch Anleitungen für andere IDEs?:
 Nein, gibt es nicht. Wenn du dich darüber beschwehren willst, 
-hättest du vor 3 Wochen anfangen sollen und bei Problemen Leute im Fin-Emporium ansprechen müssen.
+hättest du vor 3 Wochen anfangen sollen und bei Problemen Leute im Fin-Emporium ansprechen müssen. ¯\\\_(ツ)\_/¯
 
 #### Ich habe einen Bug gefunden:
 Schreibe mir gerne auf Discord oder im Aud Channel vom Fin-Emporium
